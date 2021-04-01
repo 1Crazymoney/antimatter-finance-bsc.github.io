@@ -47,8 +47,8 @@ export function ConfirmRedeemModalBottom({
         currency1={undefined}
       />
       <ButtonPrimary style={{ margin: '20px 0 0 0' }} onClick={onRedeem}>
-        <Text fontWeight={500} fontSize={16}>
-          Confirm Generation
+        <Text fontWeight={500} fontSize={20}>
+          Confirm Redemption
         </Text>
       </ButtonPrimary>
     </>
