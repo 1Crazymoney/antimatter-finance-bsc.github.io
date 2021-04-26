@@ -31,7 +31,7 @@ export function ConfirmRedeemModalBottom({
         cardTitle={``}
         subTitle="Output Token"
         callVol={parseBalance({ val: delta?.dUnd, token: new Token(1, ZERO_ADDRESS, currencyA?.decimals ?? 18) })}
-        putVol={parseBalance({ val: delta?.dCur, token:  new Token(1, ZERO_ADDRESS, currencyB?.decimals ?? 18)})}
+        putVol={parseBalance({ val: delta?.dCur, token: new Token(1, ZERO_ADDRESS, currencyB?.decimals ?? 18) })}
         currency0={currencyA ?? undefined}
         currency1={currencyB ?? undefined}
       />
