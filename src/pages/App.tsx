@@ -53,10 +53,9 @@ const AppWrapper = styled.div`
 `
 const ContentWrapper = styled.div`
   width: 100%;
-  ${({ theme }) => theme.mediaWidth.upToSmall`
-  height:calc(100% - ${({ theme }) => theme.mobileHeaderHeight} - ${({ theme }) => theme.headerHeight});
-  overflow-y: auto
-  `}
+  max-height: 100vh;
+  overflow: auto;
+  align-items: center;
 `
 
 const HeaderWrapper = styled.div`
